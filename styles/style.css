@@ -394,11 +394,13 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
+  z-index: 1;
   max-width: 660px;
 }
 
 .about__paragraph {
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 32px;
 }
 
 .about__circle {
@@ -406,6 +408,9 @@
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  position: absolute;
+  top: 121px;
+  left: 91px;
 }
 
 .footer {
