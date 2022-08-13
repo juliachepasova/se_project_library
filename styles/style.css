@@ -126,11 +126,12 @@
 .staff__objects {
   list-style: none;
   max-width: 760px;
-  margin: 69px auto 40px;
+  margin: 69px auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
+  padding: 0;
 }
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
@@ -141,7 +142,6 @@
   box-sizing: border-box;
   height: 420px;
   width: 360px;
-  column-gap: 40px;
 }
 
 .card__content {
@@ -215,18 +215,16 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-right: 12px;
+  height: 24px;
+  width: 24px;
 }
 
 .event-info__icon_type_calendar {
   background-image: url(../images/icon_calendar.svg);
-  height: 24px;
-  width: 24px;
 }
 
 .event-info__icon_type_pin {
   background-image: url(../images/icon_pin.svg);
-  height: 24px;
-  width: 24px;
 }
 
 .event-info__text {
@@ -273,13 +271,13 @@
 
 .person_name_feynman {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  top: 30px;
+  top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  top: 126px;
+  top: 96px;
   right: 125px;
 }
 
@@ -297,7 +295,7 @@
 
 .person_name_tarter {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  top: 109px;
+  top: 79px;
   left: 159px;
 }
 
@@ -402,6 +400,10 @@
   margin-bottom: 32px;
 }
 
+.about__paragraph:last-child {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -414,7 +416,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 60px 80px;
   min-height: 224px;
