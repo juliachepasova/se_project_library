@@ -9,3 +9,6 @@ The Practicum Library webpage is the first project in the Software Engineer prog
 - Positioning
 - Vertical stacking with z-index
 # se_project_library
+
+
+[The link to GitHub Pages] (https://juliachepasova.github.io/se_project_library/)
